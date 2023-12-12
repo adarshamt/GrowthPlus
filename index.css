@@ -1,52 +1,284 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat:wght@300;400;500&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  /* position: fixed; */
+  top: 0;
+}
+.header_top_container {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header_bottom_container {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #278cc9;
+}
+.header_bottom_container ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  list-style: none;
+}
+.header_bottom_container ul li {
+  height: 42px;
+  line-height: 42px;
+  font-weight: 300;
+  font-size: 17px;
+
+  display: block;
+  padding: 0 24px;
+  text-transform: uppercase;
+  font-weight: 300;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin: 0px auto 0 auto;
+}
+
+.component_1 {
+  /* position: relative; */
+  width: 100%;
+  height: 650px;
+
+  background-image: url("https://res.cloudinary.com/dcy1nhstg/image/upload/v1702372278/Home_Banner.jpg");
+  background-size: cover;
+  margin-top: 10px solid #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.component_1_Contents {
+  width: 60%;
+  
+  text-align: center;
+
+}
+.component_1_Contents h1 {
+  font-size: 4vw;
+  line-height: 100%;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 5%;
+  text-shadow: 1px 1px black;
+  font-family: "Cinzel", serif;
+}
+.component_1_Contents h3 {
+  line-height: 100%;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 5%;
+  text-shadow: 1px 1px black;
+  font-family: "Cinzel", serif;
+  font-size: 2vw;
+}
+.buttons_top button {
+  max-width: max-content;
+  font-size: 14px;
+  padding: 12px 28px;
+  border: 2px solid #ffffff;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+
+
+
+
+
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+.button_bottom button {
+    margin-top: .2rem;
+  font-family: "Montserrat", sans-serif;
+
+  padding: 12px 34px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #000;
+  background-color: #fff;
+  border: 2px solid #ffffff;
+  display: inline-block;
+  max-width: max-content;
+  cursor: pointer;
+  transition: 0.3s linear;
+
+}
+
+.social_elements{
+    margin-top: 1.2rem !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #00000054;
+    width: max-content;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 3rem;
+     background-color: #00000054;   
+     font-size: 25px; 
+     
     
 }
-body{
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
+.social_elements i{
+    margin: 0 2rem;
 }
 
-.header_top_container{
-    width: 100%;
-    height: 90px;
+.component_2{
+
+    /* width: 100%; */
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    background:linear-gradient(#278cc9,#fff);
+    padding: 6rem 2rem;
 
 }
-.header_bottom_container{
-    width: 100%;
-    height: 75px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #278cc9;
-}
-.header_bottom_container ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    list-style: none;
+.compent_2_card{
+      
+        padding: 2% 0;
+        transform: translate3d(0px, 0vw, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+        transform-style: preserve-3d;
+        opacity: 1;
+        transition: 0.7s;
+        text-align: center;
+        background: #fff;
+        margin: 0 3px;
+        border-radius: 3px;
+        border: 1px solid transparent;
+        width: 280px;
+        height: 15rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 1rem;
 
-}
-.header_bottom_container ul li{
+    }
+    .compent_2_card h2{
+        font-family: "Cinzel", serif;
+        color: #337ab7;
 
-         height: 42px;
-    line-height: 42px;
-    font-weight: 300;
-    font-size: 17px;
+
+    }    
+.compent_2_card img {
     
-    display: block;
-    padding: 0 24px;
-    text-transform: uppercase;
-    font-weight: 300;
-    cursor: pointer;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-    margin: 0px auto 0 auto;
+    width: 13rem;
+    height: 8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.insurance {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.insurance_right {
+  width: 674.5px;
+  height: 449.89px;
+  background-position: center;
+  object-fit: cover;
+  overflow: clip;
+}
+
+.insurance_right img {
+  width: 674.5px;
+  height: 449.89px;
+}
+
+.insurance_left {
+  width: 674.5px;
+  height: 449.89px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.insurance_left-content {
+  width: 100%;
+  height: 194.58px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.insurance_left-content h1 {
+  font-size: 30px;
+  font-family: "Cinzel", serif;
+  font-weight: 300;
+  color: #278cc9;
+}
+
+.insurance_left-content p {
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
+  color: #434343;
+}
+.insurance_left-content h3 {
+  font-size: 24px;
+  font-family: "Cinzel", serif;
+  font-weight: 300;
+  color: #278cc9;
+}
+
+.insurance_left-content img {
+  width: 200px;
+  height: 25.91px;
 }
