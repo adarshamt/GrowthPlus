@@ -335,16 +335,15 @@ header {
   align-items: center;
 
   flex-direction: column;
-row-gap: 5rem;
-  
+  row-gap: 5rem;
 }
-.component_6 h1{
+.component_6 h1 {
   color: #278cc9;
 
   font-family: "Cinzel", serif;
   font-size: 30px;
   font-weight: 300;
-  
+
   /* margin-bottom: 5rem; */
 }
 .services_conatiner h3 {
@@ -353,7 +352,6 @@ row-gap: 5rem;
   font-family: "Cinzel", serif;
   font-size: 15px;
   font-weight: 300;
-
 }
 
 .services_conatiner {
@@ -363,7 +361,6 @@ row-gap: 5rem;
   /* align-items: center; */
 
   /* justify-content: center; */
-  
 }
 .outer_card {
   width: 14rem;
@@ -391,100 +388,161 @@ row-gap: 5rem;
   height: 6rem;
 }
 
-
-
-.component_7{
+.component_7 {
   width: 100%;
-  height: 80vh;
 
-  
   display: flex;
   justify-content: center;
-  background-color: #7dc512;
+  /* background-color: #7dc512; */
   align-items: center;
 }
 
-.review_container{
+.review_container {
   width: 100%;
+  /* height: 60vh; */
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   padding: 3rem 2rem;
-  
-  background-color: #bf0909;
 
+  /* background-color: #bf0909; */
+  color: #278cc9;
+
+  font-family: "Cinzel", serif;
+  font-size: 15px;
+
+  row-gap: 2rem;
 }
 
-.review_container{
-
-color: #278cc9;
-
-font-family: "Cinzel", serif;
-font-size: 15px;
-
-}
-
-
-.wills_review{
+.wills_review {
   width: 50%;
   height: 8rem;
   border-radius: 5px;
 
-background-color:#278cc9 ;
-display: flex;
-align-items: center;
-justify-content: center;
-  
-}
-
-.will_reviw_main{
-width: 90%;
-
-height: 100%;
-display: flex;
-justify-content: start;
-align-items: center;
-}
-.wills_review_left{
-  
+  background-color: #278cc9;
   display: flex;
   align-items: center;
-  
+  justify-content: center;
 }
 
-.review_image_cont{
+.will_reviw_main {
+  width: 90%;
 
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.wills_review_left {
+  display: flex;
+  align-items: center;
+}
+
+.review_image_cont {
   /* width: 4rem;
   height: 4rem;
   border-radius: 3rem; */
   /* background-color: #000; */
-
 }
-.review_image_cont img{
+.review_image_cont img {
   width: 5rem;
   height: 5rem;
   border-radius: 5rem;
   border: 4px solid #fff;
   object-fit: cover;
 }
-.wills_review_right{
+.wills_review_right {
   display: flex;
   flex-direction: column;
   margin-left: 2rem;
   color: #fff;
-  
 }
-.revie_star_box{
+.revie_star_box {
   display: flex;
 }
 
+.testimonial_main {
+  width: 100%;
+  /* height: 50vh; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
 
+.testimonial_card {
+  width: 21rem;
+  /* height: 18rem; */
+}
+.testimonial_card_message {
+  font-family: "Montserrat", sans-serif !important;
 
+  width: 100%;
+  height: 9rem;
+  border-radius: 1rem;
+  background-color: #337ab7;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 1rem;
+}
 
+.textimonial_person_details {
+  width: 100%;
+  /* height: 5rem; */
+  /* background-color: #000; */
+  display: flex;
+  align-items: center;
+  padding: 1%;
+  margin-top: 2rem;
+}
+.personName_circle {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 5rem;
+ 
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+}
+.personName_date{
+  /* width: 100%; */
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  
+}
 
+.personName_date h4{
+  color: #000;
+  font-weight: 600;
+  font-size: 24px;
+}
+.personName_date p{
 
+  color: #000;
 
+}
+.review_container button{
+  margin: 5px;
+    padding: 12px 50px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #434343;
+    color: #fff;
+    border: none;
+}
 
 
 
@@ -495,7 +553,7 @@ align-items: center;
 .insurance {
   display: flex;
   max-width: 100%;
-  margin: 0;
+  
   padding: 0;
 }
 
@@ -553,49 +611,36 @@ align-items: center;
   height: 25.91px;
 }
 
-
-
-
-.footer_Sec{
+.footer_Sec {
   height: 20rem;
-  width:100%;
+  width: 100%;
   background-color: #278cc9;
   display: flex;
   justify-content: center;
   align-items: center;
- 
 }
-.footer_Sec-Main{
+.footer_Sec-Main {
   height: 18rem;
-  width:100%;
+  width: 100%;
   background-color: #278cc9;
   display: flex;
   justify-content: space-between;
- 
-
 }
-.Footer_Sec_Map{
+.Footer_Sec_Map {
   width: 692px;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
-.Footer_Sec_Location{
+.Footer_Sec_Location {
   width: 500px;
   height: 100%;
   background-color: rgb(201, 33, 33);
-
-
 }
-.Footer_Sec_Navigation{
-
+.Footer_Sec_Navigation {
   width: 500px;
   height: 100%;
   background-color: burlywood;
-
-
-
 }
