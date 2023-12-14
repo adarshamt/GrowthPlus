@@ -364,13 +364,14 @@ header {
 }
 .outer_card {
   width: 14rem;
-  height: 16rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 11rem;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
   flex-direction: column;
   margin: 0 3rem;
   text-align: center;
+  font-weight: 600;
 }
 
 .inner_circle {
